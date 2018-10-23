@@ -14,7 +14,7 @@ void setup()
   background(51);
 }
 void draw()
-{ //<>//
+{
   stroke(int(random(256)),int(random(256)),255);
   while(endX < 1600){
     endX = startX + int(random(9));
